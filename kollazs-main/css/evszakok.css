@@ -1,0 +1,203 @@
+body
+{
+    font-family: 'Dancing Script', cursive;
+    background-color: bisque;
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+    color: chocolate;
+}
+
+.content
+{
+    height: 700px;
+    width: 1306px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: Beige;
+}
+
+#kep1
+{
+    float: left;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 0px;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+#kep2
+{
+    float:  left;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+#kep3
+{
+    float: left;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 1s;
+}
+
+#kep4
+{
+    float: right;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 15px;
+    margin-right:0px;
+    transition: 1s;
+}
+
+#kep1:hover
+{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+#kep2:hover
+{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+#kep3:hover
+{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+#kep4:hover
+{
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+#p1
+{
+    float: left;
+    margin-left: 107px;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: lime;
+}
+
+#p2
+{
+    float: left;
+    margin-left: 243px;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: green;
+}
+
+#p3
+{
+    float: left;
+    margin-left: 265px;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: brown;
+}
+
+#p4
+{
+    float: left;
+    margin-left: 285px;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: black;
+}
+
+.sidebar 
+{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: LightGray;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+                
+.sidebar a 
+{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+                
+.sidebar a.active 
+{
+    background-color: SlateGrey;
+    color: white;
+}
+                
+.sidebar a:hover:not(.active) 
+{
+    background-color: gray;
+    color: white;
+}
+                
+div.content 
+{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+                
+@media screen and (max-width: 700px) 
+{
+    .sidebar 
+    {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+                
+@media screen and (max-width: 400px) 
+{
+    .sidebar a 
+    {
+        text-align: center;
+        float: none;
+    }
+}
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: BurlyWood;
+    color: white;
+    text-align: center;
+}
